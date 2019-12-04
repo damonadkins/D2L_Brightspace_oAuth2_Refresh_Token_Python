@@ -20,7 +20,7 @@ from appFuncs import authorize as authorize
 from appFuncs import parseAuthCode as parseAuthCode
 from appFuncs import accessToken as accessToken
 
-tokenConfigFile = 'tokenConfigTest'
+tokenConfigFile = 'tokenConfig'
 
 conf = getConfig(tokenConfigFile)
 auth = authorize(tokenConfigFile)
